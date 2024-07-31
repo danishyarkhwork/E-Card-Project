@@ -1,4 +1,3 @@
-// src/components/frontend/Header.tsx
 import Link from "next/link";
 
 const Header = () => {
@@ -11,7 +10,9 @@ const Header = () => {
             <li>
               <Link href="/">Home</Link>
             </li>
-            {/* Add more frontend navigation links as needed */}
+            <li>
+              <Link href="/about">About</Link>
+            </li>
           </ul>
         </nav>
       </div>

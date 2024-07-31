@@ -1,4 +1,3 @@
-// src/components/admin/AdminHeader.tsx
 import Link from "next/link";
 
 const AdminHeader = () => {
@@ -9,9 +8,11 @@ const AdminHeader = () => {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="/admin">Dashboard</Link>
+              <Link href="/admin/">Dashboard</Link>
             </li>
-            {/* Add more admin navigation links as needed */}
+            <li>
+              <Link href="/admin/users">Users</Link>
+            </li>
           </ul>
         </nav>
       </div>
